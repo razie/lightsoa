@@ -31,14 +31,14 @@ How?
 
 In the sbt Project file for your project (project/build/Project.scala), add the dependency: 
 
-    val lsoa = "com.razie" %% "lightsoa" % "0.1-SNAPSHOT"
+    val lsoa = "com.razie" %% "lightsoa" % "0.6.3-SNAPSHOT"
 
 Or Maven style:
 
     <dependency>
         <groupId>com.razie</groupId>
         <artifactId>lightsoa_2.9.1</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.6.3-SNAPSHOT</version>
     </dependency>
 
 
