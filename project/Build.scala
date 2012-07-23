@@ -3,13 +3,13 @@ import Keys._
 import java.io.File
 
 object V {
-  val version      = "0.6-SNAPSHOT"
+  val version      = "0.6.3-SNAPSHOT"
   val scalaVersion = "2.9.1"
   val organization = "com.razie"
 
   def snap = (if (V.version endsWith "-SNAPSHOT") "-SNAPSHOT" else "")
 
-  def RAZBASEVER = "0.6" + snap
+  def RAZBASEVER = "0.6.3" + snap
 }
 
 object MyBuild extends Build {
@@ -46,7 +46,11 @@ object MyBuild extends Build {
         Some ("Sonatype" at "https://oss.sonatype.org/content/repositories/snapshots/")
       else
         Some ("Sonatype" at "https://oss.sonatype.org/content/repositories/releases/")
-    }  )
+    } ,
+
+    resolvers ++= Seq("snapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
+                      "releases"  at "http://oss.sonatype.org/content/repositories/releases")
+    )
 
 }
 
