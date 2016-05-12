@@ -16,7 +16,7 @@ Lightsoa is a simple set of annotations for remote methods.
 Roadmap
 -------
 
- - have a servlet implementation 
+Not maintained anymore.
 
 
 Why "lightsoa" ?
