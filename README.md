@@ -1,17 +1,12 @@
-    /**  ____    __    ____  ____  ____/___      ____  __  __  ____
-     *  (  _ \  /__\  (_   )(_  _)( ___) __)    (  _ \(  )(  )(  _ \
-     *   )   / /(__)\  / /_  _)(_  )__)\__ \     )___/ )(__)(  ) _ <
-     *  (_)\_)(__)(__)(____)(____)(____)___/    (__)  (______)(____/
-     *                      
-     *  Copyright (c) Razvan Cojocaru, 2007+, Creative Commons Attribution 3.0
-     */
 
 What?
 -------
 
-Lightsoa is a simple set of annotations for remote methods.
+A microservices framework, a simple set of annotations for remote methods and related support.
 
+See [SoaStreamable](https://github.com/razie/lightsoa/blob/master/core/src/main/scala/com/razie/pub/lightsoa/SoaStreamable.java) for an early example of a streaming API.
 
+See also https://github.com/razie/razmutant and https://github.com/razie/razbase/tree/master/web
 
 Roadmap
 -------
