@@ -6,6 +6,8 @@ A microservices framework, a simple set of annotations for remote methods and re
 
 See [SoaStreamable](https://github.com/razie/lightsoa/blob/master/core/src/main/scala/com/razie/pub/lightsoa/SoaStreamable.java) for an early example of a streaming API.
 
+See [XmlDb](https://github.com/razie/razmutant/blob/master/mutant/src/main/scala/com/razie/dist/db/XmlDb.java) for a sample of a distributed, eventually consistent data structure.
+
 See also https://github.com/razie/razmutant and https://github.com/razie/razbase/tree/master/web
 
 Roadmap
